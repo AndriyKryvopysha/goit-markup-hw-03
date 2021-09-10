@@ -10,6 +10,9 @@ body {
   color: #212121;
 }
 
+header {
+  background-color: #ffffff;
+}
 /* Шапка */
 .logo {
   font-family: Raleway;
@@ -22,7 +25,6 @@ body {
   display: inline-block;
   width: 145px;
   height: 31px;
-  margin-top: 5px;
   margin-right: 93px;
 }
 
@@ -31,25 +33,29 @@ body {
 }
 /* Навигация */
 
-.site-nav {
-  display: flex;
-}
-
 .container-nav {
+  width: 1200px;
   display: flex;
-  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
-  padding: 32px 215px;
 }
 
 ul {
   list-style-type: none;
 }
 
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
 .link {
   display: flex;
-  justify-content: flex-start;
-  margin-right: 50px;
+  width: 294px;
+  justify-content: space-between;
 }
 
 .nav-link {
@@ -58,7 +64,10 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #2196f3;
@@ -66,7 +75,11 @@ ul {
 
 .auth {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
 }
+
 .nav-contact {
   text-decoration: none;
   font-weight: 500;
@@ -74,10 +87,20 @@ ul {
   line-height: 1.14;
   color: #757575;
 }
+
 .nav-contact:hover,
 .nav-contact:focus {
   color: #2196f3;
 }
+
+.auth-contact {
+  margin-right: 50px;
+}
+
+.auth-contact:last-child {
+  margin-right: 0px;
+}
+
 /* Герой */
 .hero {
   background-color: #2f303a;
@@ -165,15 +188,49 @@ ul {
 }
 
 /* Подвал */
+.logo-f {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-psn {
+  box-sizing: border-box;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 154px;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo-footer {
   color: white;
 }
 
 .foot {
   background-color: #2f303a;
+  height: auto;
+}
+
+.foot-psn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+  justify-content: space-between;
 }
 
 .foot-address {
+  text-decoration: none;
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
