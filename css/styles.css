@@ -1,0 +1,163 @@
+/* font-family: Raleway;
+font-family: Roboto;
+ */
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #212121;
+}
+
+/* Шапка */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-header {
+  color: black;
+}
+/* Навигация */
+ul {
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.nav-contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: #2196f3;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.hero button {
+  font-family: Roboto;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+.filter button {
+  font-family: Roboto;
+  background-color: #f5f4fa;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+}
+.filter button:hover,
+.filter button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Main content */
+
+.content-list h2 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.content-list p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.advantages h2 {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages p {
+  line-height: 1.71;
+  color: #757575;
+}
+
+.example h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+.teams {
+  background-color: #ffffff;
+}
+
+/* Подвал */
+.logo-footer {
+  color: white;
+}
+
+.foot {
+  background-color: #2f303a;
+}
+
+.foot-address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.foot-contact {
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+
+.foot-contact:hover,
+.foot-contact:focus {
+  color: #2196f3;
+}
