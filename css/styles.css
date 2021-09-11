@@ -12,7 +12,12 @@ body {
 
 header {
   background-color: #ffffff;
+  border-color: ECECEC;
+  border-bottom: 1px solid;
+  height: 80px;
+  display: flex;
 }
+
 /* Шапка */
 .logo {
   font-family: Raleway;
@@ -122,6 +127,16 @@ ul {
   line-height: 1.88;
   cursor: pointer;
 }
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 495px;
+  margin-right: 495px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
 .filter button {
   font-family: Roboto;
   background-color: #f5f4fa;
@@ -130,7 +145,16 @@ ul {
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
+  border-radius: 6px;
+  border-color: #ffffff;
+  margin-right: 8px;
+  padding: 6px 22px 6px 22px;
 }
+
+.filter:last-child {
+  margin-left: 0px;
+}
+
 .filter button:hover,
 .filter button:focus {
   background-color: #2196f3;
@@ -138,6 +162,55 @@ ul {
 }
 /* Main content */
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-basis: 1200px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 370px;
+  justify-content: flex-start;
+  text-align: start;
+  margin-bottom: 30px;
+  margin-right: 30px;
+
+  outline: 1px solid #eeeeee;
+}
+
+.projects-container:nth-child(3n) {
+  margin-right: 0;
+}
+
+.projects-container:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
+.projects-container h2,
+p {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.projects-container h2 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.projects-container p {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
 .content-list h2 {
   font-size: 18px;
   line-height: 2;
