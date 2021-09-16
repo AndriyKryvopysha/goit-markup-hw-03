@@ -14,14 +14,15 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="page-header">
+
+    <header>
       <div class="container-nav">
         <nav class="site-nav">
           <a class="logo" lang="en" href="">Web<span class="logo-header">Studio</span></a>
           <ul class="link">
-            <li><a class="nav-link" href="./index.html">Студия</a></li>
-            <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-link" href="">Контакты</a></li>
+            <li class="links"><a class="nav-link" href="./index.html">Студия</a></li>
+            <li class="links"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+            <li class="links"><a class="nav-link" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth">
@@ -34,85 +35,95 @@
         </ul>
       </div>
     </header>
-    <main>
-      <section class="content-list">
-        <!--Фильтр-->
-        <ul class="filter">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-        <!--Контент страницы-->
-        <ul class="projects">
-          <li class="projects-container">
-            <img src="./images/web1.jpg" alt="Сайт на экране" width="370" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
+    <div class="container-content">
+      <main>
+        <section class="content-list">
+          <!--Фильтр-->
+          <ul class="filter">
+            <li class="filter-button"><button type="button">Все</button></li>
+            <li class="filter-button"><button type="button">Веб-сайты</button></li>
+            <li class="filter-button"><button type="button">Приложения</button></li>
+            <li class="filter-button"><button type="button">Дизайн</button></li>
+            <li class="filter-button"><button type="button">Маркетинг</button></li>
+          </ul>
+          <!--Контент страницы-->
+          <ul class="projects">
+            <li class="projects-container">
+              <img src="./images/web1.jpg" alt="Сайт на экране" width="370" />
+              <h2>Технокряк</h2>
+              <p>Веб-сайт</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/dys1.jpg" alt="Двое баскетболистов" width="370" />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/dys1.jpg" alt="Двое баскетболистов" width="370" />
+              <h2>Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/app1.jpg" alt="Заголовок ресторана" width="370" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/app1.jpg" alt="Заголовок ресторана" width="370" />
+              <h2>Ресторан Seafood</h2>
+              <p>Приложение</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/mark1.jpg" alt="Наушники" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/mark1.jpg" alt="Наушники" width="370" />
+              <h2>Проект Prime</h2>
+              <p>Маркетинг</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/app2.jpg" alt="Две коробки" width="370" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/app2.jpg" alt="Две коробки" width="370" />
+              <h2>Проект Boxes</h2>
+              <p>Приложение</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/web2.jpg" alt="Монитор" width="370" />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/web2.jpg" alt="Монитор" width="370" />
+              <h2>Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/dys2.jpg" alt="Разворот журнала" width="370" />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/dys2.jpg" alt="Разворот журнала" width="370" />
+              <h2>Издание Limited Edition</h2>
+              <p>Дизайн</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/mark2.jpg" alt="Тэг" width="370" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
+            <li class="projects-container">
+              <img src="./images/mark2.jpg" alt="Тэг" width="370" />
+              <h2>Проект LAB</h2>
+              <p>Маркетинг</p>
+            </li>
 
-          <li class="projects-container">
-            <img src="./images/app3.jpg" alt="Открытый сайт на ноутбуке" width="370" />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
-      </section>
-    </main>
+            <li class="projects-container">
+              <img src="./images/app3.jpg" alt="Открытый сайт на ноутбуке" width="370" />
+              <h2>Growing Business</h2>
+              <p>Приложение</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
     <!--Подвал Сайта-->
-    <footer class="foot">
-      <div class="logo-psn">
-        <a class="logo-f" lang="en" href="">Web<span class="logo-footer">Studio</span></a>
-      </div>
-      <div class="foot-psn">
-        <a class="foot-address" href="https://www.google.com.ua/maps/"
-          >г. Киев, пр-т Леси Украинки, 26</a
-        >
-        <a class="foot-contact" href="mailto:info@example.com">info@example.com</a>
-        <a class="foot-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+    <footer>
+      <div class="container-foot">
+        <div class="logo-psn">
+          <a class="logo-f" lang="en" href="">Web<span class="logo-footer">Studio</span></a>
+        </div>
+        <ul class="foot-psn">
+          <li class="foot-item">
+            <a class="foot-address" href="https://www.google.com.ua/maps/"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li class="foot-item">
+            <a class="foot-contact" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
