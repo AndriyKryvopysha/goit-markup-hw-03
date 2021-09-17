@@ -11,6 +11,11 @@ body {
 }
 
 /* Шапка */
+
+header {
+  border-bottom: solid 1px #ececec;
+}
+
 .container-content {
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +47,6 @@ body {
   padding-right: 15px;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid #ececec;
 }
 
 ul {
@@ -153,13 +157,16 @@ ul {
 
 /* Фильтр */
 
+.content-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filter {
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
-  margin-bottom: 50px;
 }
 
 .filter button {
@@ -194,10 +201,10 @@ ul {
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 0px;
+  padding-top: 50px;
   padding-bottom: 0px;
 }
 
@@ -248,13 +255,15 @@ p {
 
 /* Преимущества */
 
-.advantages-sec {
-  display: flex;
+.container-advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages {
   display: flex;
-  margin-top: 94px;
+  justify-content: center;
+
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -272,7 +281,7 @@ p {
   margin-right: 0px;
 }
 
-.advantages h2 {
+.advantages-title {
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
@@ -287,17 +296,22 @@ p {
 
 /* Примеры */
 
-.example {
-  margin-top: 94px;
+.container-example {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 94px;
 }
 
-.example h2,
-.team h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .example-img {
@@ -319,7 +333,11 @@ p {
 
 .team {
   background-color: #f5f4fa;
-  margin-top: 94px;
+}
+
+.container-team {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -333,7 +351,7 @@ p {
   background-color: #f5f4fa;
 }
 
-.teams {
+.team-card {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -341,25 +359,44 @@ p {
   border-radius: 4px;
   text-align: center;
   margin-right: 30px;
+  padding-bottom: 0px;
 }
 
-.teams:last-child {
+.team-card:last-child {
   margin-right: 0px;
 }
 
-.teams h3 {
+.card-discription {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
   margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.teams p {
+.proffesion {
   color: #757575;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Подвал */
@@ -369,17 +406,20 @@ footer {
 }
 
 .container-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo-psn {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
-  padding-left: 15px;
 }
 
 .logo-f {
@@ -399,13 +439,8 @@ footer {
 .foot-psn {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-left: 15px;
+  padding-top: 20px;
   padding-right: 15px;
-  padding-bottom: 60px;
 }
 
 .foot-item {
